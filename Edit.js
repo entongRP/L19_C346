@@ -28,8 +28,8 @@ const Edit = ({navigation, route}) => {
                                                 "Content-Type": "application/json"
                                             },
                                             body: JSON.stringify({
-                                                name: name,
-                                                pic: pic
+                                                card_name: name,
+                                                card_pic: pic
                                             })
                                         }
                                     )
